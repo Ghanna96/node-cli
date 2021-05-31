@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "types": ["node"],
+      "baseUrl": ".",
+      "target": "ES2017",
+      "module": "commonjs",
+      "strict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "rootDir": "src",
+      "outDir": "lib",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+
+    },
+    "exclude": [
+        "node_modules",
+        "src/templates",
+        "lib",
+        
+    ]
+
+}
+  

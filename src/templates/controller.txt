@@ -1,0 +1,12 @@
+import {Request, Response} from "express";
+import {Controller} from "arls-di-router";
+
+@Controller()
+export class ${Name}Controller {
+    constructor() {
+    }
+
+    sayHello(req: Request, res: Response) {
+        res.success("Hello");
+    }
+}

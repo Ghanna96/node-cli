@@ -1,0 +1,15 @@
+import {Request, Response} from "express";
+import {${Name}Controller} from "../controllers/${name}.controller";
+import {GET, Route} from "arls-di-router";
+
+@Route("/api/${name}")
+export class ${Name}Route {
+    constructor(private ctrl: ${Name}Controller) {
+    }
+
+    @GET("/")
+    hello(req: Request, res: Response) {
+        this.ctrl.sayHello(req, res);
+    }
+}
+
