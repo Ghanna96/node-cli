@@ -14,7 +14,7 @@ export default class Project {
 		try {
 			await execa('git', [
 				'clone',
-				'git@git.arlivesystems.com:templates/backend-for-api-developement.git',
+				'REPLACE HERE', //template to clone
 				this.name,
 			]);
 		} catch (err) {

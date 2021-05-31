@@ -10,8 +10,7 @@
 	"scripts": {
 		"dev": "ts-node src/index.ts",
 		"build": "tsc && mkdir -p ./lib/templates && cp ./src/templates/* ./lib/templates/",
-		"refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
-		"publish-package": "npm publish ./lib --registry https://git.arlivesystems.com:4873"
+		"refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
 	},
 	"keywords": [],
 	"author": "Akram Ghanname",
